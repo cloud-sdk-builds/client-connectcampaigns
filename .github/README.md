@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-connectcampaigns`](https://www.npmjs.com/package/@aws-sdk/client-connectcampaigns/v/3.477.0).
+[`@aws-sdk/client-connectcampaigns`](https://www.npmjs.com/package/@aws-sdk/client-connectcampaigns/v/3.478.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.477.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.478.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-+eSqVkR2o5+tBHUpDXTIFUGjhEga9hH6a335g0XyQpVidUYfscIOQtwF7TJyPoEV
+sha384-QDhjEfDu61bWHBHNKMO2SqHWDcU8kZ3C74M7E+NxlHYqoJJ+F8v9dQAUkPNEg4/E
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-connectcampaigns": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.477.0/index.min.mjs"
+            "@aws-sdk/client-connectcampaigns": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.478.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.477.0/index.min.mjs": "sha384-+eSqVkR2o5+tBHUpDXTIFUGjhEga9hH6a335g0XyQpVidUYfscIOQtwF7TJyPoEV"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.478.0/index.min.mjs": "sha384-QDhjEfDu61bWHBHNKMO2SqHWDcU8kZ3C74M7E+NxlHYqoJJ+F8v9dQAUkPNEg4/E"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-connectcampaigns": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.477.0/index.min.mjs"
+                        "@aws-sdk/client-connectcampaigns": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.478.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.477.0/index.min.mjs": "sha384-+eSqVkR2o5+tBHUpDXTIFUGjhEga9hH6a335g0XyQpVidUYfscIOQtwF7TJyPoEV"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connectcampaigns@3.478.0/index.min.mjs": "sha384-QDhjEfDu61bWHBHNKMO2SqHWDcU8kZ3C74M7E+NxlHYqoJJ+F8v9dQAUkPNEg4/E"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.477.0`)
+* Always pin to a specific version (`@3.478.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-connectcampaigns/blob/refs/tags/3.477.0/LICENSE
+https://github.com/cloud-sdk-builds/client-connectcampaigns/blob/refs/tags/3.478.0/LICENSE
 ```
 
 ---
